@@ -4,7 +4,7 @@
     font-family: "DM Sans", sans-serif;
 }
 
-.container-logo>span,.main-seccion1-titulo, .header-container>span:nth-child(2),.seccion2-titulo,.seccion2-card-titulo{
+.container-logo>span,.main-seccion1-titulo, .header-container>span:nth-child(2),.seccion2-titulo,.seccion2-card-titulo,.seccion3-titulo{
     font-weight: 700;
     font-size: 1.7rem;
 }
@@ -169,4 +169,29 @@ margin: 0.4rem 0;
 
 .seccion2-card-subtitulo{
     margin: 0;
+}
+
+.seccion3-image{
+    background: url(/Images/people.jpeg);
+    height: 23rem;
+    position: relative;
+    background-position: center;
+    display: flex;
+    background-position: 70% 30%;
+    
+}
+
+.seccion3-image::before{
+    content: "";
+    background:teal;
+    opacity: 0.5;
+    width: 100%;
+}
+.seccion3-titulo{
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    padding: 4rem 0 0 0;
+    color:white;
 }
