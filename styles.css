@@ -343,3 +343,41 @@ footer{
     padding: 5rem 0 0 0;
     background-color: #FAF8F7;
 }
+.seccion4-card1{
+    margin: 20px 0 0 0 ;
+}
+
+.seccion4-card1>div>span:nth-child(1){
+    background-color: orange;
+}
+.seccion4-card1>div>div>a{
+    border: orange solid 2px
+}
+
+.seccion4-card3>div>span:nth-child(1){
+    background-color: gold;
+}
+
+.seccion4-card3>div>div>a{
+    border: gold solid 2px
+}
+
+.seccion4-card3>div>div{
+    color: white;
+}
+.seccion4-card3 .card-contenedor-texto3 span:nth-child(1){
+    color: gold;
+}
+
+.seccion4-card3>div:nth-child(2){
+    background-color: Black;
+}
+
+.seccion4-card3 .boton-plan>a{
+    background-color: #282623;
+    color:white;
+}
+
+.seccion4-card3>div>span:nth-child(1){
+    color:black;
+}
