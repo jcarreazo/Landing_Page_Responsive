@@ -1,0 +1,21 @@
+.seccion1-head{
+    display: flex; 
+    margin: 1.5rem;
+}
+
+.seccion1-head-texto{
+    margin: 2.5rem 0 0 0;
+}
+.card-contenedor{
+    margin: 0 0.5rem;
+}
+.seccion4-card-planes {
+    justify-content: center;
+}
+
+.seccion2-card-contenedor{
+   display: grid;
+   grid-template-columns: 1fr 1fr ;
+   grid-template-rows: 1fr 1fr;
+
+}
