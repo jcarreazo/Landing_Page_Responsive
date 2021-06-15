@@ -58,10 +58,14 @@
 
 .header-planes-texto{
     padding: 0 10px 0 0;
+
 }
 
 .main-seccion1-avion{
+    width: 280px;
+    height: 220px;
     margin: 5rem 1rem 0 1rem;
+
 }
 
 .main-seccion1-subtitulo, .seccion2-subtitulo,.seccion2-card-subtitulo,.seccion4-subtitulo{
@@ -93,9 +97,21 @@ margin:0 0 1rem 0
     justify-content: space-evenly;
     align-items: center;
 }
+.tabla{
+    margin: 0 10px;
+    scroll-snap-align: center;
+}
+.slide-tablas{
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type:x proximity;
+    align-items: center;
+}
 
 .seccion1-nombres-texto,.seccion1-valor-precios{
     font-family: "Inter";
+    white-space: nowrap;
     font-weight: 500;
     padding: 10px 20px;
     margin: 2px 1px;
@@ -118,6 +134,14 @@ margin:0 0 1rem 0
 }
 .seccion1-valor-precios:nth-child(4){
     border-radius:  0 0 10px 0 ;
+}
+
+.seccion1-flecha-izq{
+    padding: 0 15px 0 15px;
+}
+
+.seccion1-flecha-der{
+    padding: 0 15px 0 15px;
 }
 
 .seccion1-tabla{
@@ -173,7 +197,8 @@ margin: 0.4rem 0;
 
 
 .seccion3-image{
-    background: url(/Images/people.jpeg);
+    background: url(/Images/people.jpeg) no-repeat;
+    background-size: cover;
     height: 23rem;
     position: relative;
     background-position: center;
@@ -210,7 +235,12 @@ margin: 0.4rem 0;
 }
 
 .seccion4-card-planes{
-    padding: 0 0 5rem 0;
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type:x proximity;
+    align-items: center;
+    height: 360px;
 }
 
 .card-titulo{
@@ -224,14 +254,17 @@ margin: 0.4rem 0;
     z-index: 100;
 }
 .card-contenedor{
+    scroll-snap-align: center;
+    height: 15rem;
+    width: 13rem;
+    margin: 0 1rem;
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
     text-align: center;
-    margin: 0 75px 0 75px;
     background-color: white;
-    padding: 2.5rem 0.7rem 2rem 0.7rem;
+    padding: 2.5rem 0.8rem 2rem 0.8rem;
     border-radius: 10px;    
     box-shadow: 0px 3px 12px -2px rgb(153, 152, 153);
 }
@@ -262,6 +295,7 @@ top: 5px;
     color: #757575;
     font-family: "Roboto",sans-serif;
     font-weight: 400;
+    margin:20px 0;
 
 }
 
@@ -304,4 +338,8 @@ justify-content: space-evenly;
 .footer-name{
     font-size: 0.6rem;
     color:white;
+}
+footer{
+    padding: 5rem 0 0 0;
+    background-color: #FAF8F7;
 }
