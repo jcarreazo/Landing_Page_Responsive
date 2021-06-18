@@ -22,3 +22,28 @@
 .seccion1-tabla{
     visibility: hidden;
 }
+.footer-image{
+    background: url(/Images/people2.jpg);
+    background-size: cover;
+    height: 20rem;
+    visibility: visible;
+    position: relative;
+    background-position: center;
+    display: flex;
+    background-position: 60% 80%;
+}
+
+.footer-contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   grid-template-rows:  1fr;
+}
+.footer-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-text{
+    margin:1rem 15rem;
+}
