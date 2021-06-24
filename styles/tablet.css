@@ -94,6 +94,7 @@
 .foto-container{
     display: flex;
     margin: 1rem 1rem 6rem 1rem;
+    justify-content: center;
 }
 
 .foto-container>div{
@@ -142,4 +143,32 @@
 
 .feature-titulo2{
     font-size: 0.8rem;
+}
+.feature-titulo2{
+    color: gray;
+}
+
+.main-seccion1-titulo{
+    margin: 1rem 6rem;
+}
+.seccion1-head{
+    margin: 0;
+}
+.main-seccion1-subtitulo{
+    margin: 0 2rem 2.2rem 2rem;
+    text-align: justify;
+}
+
+.menu-bar{
+    display: none;
+}
+.menu-tablet{
+    display: flex;
+    padding:  0 1rem 0 0;
+}
+.menu-tablet>div>a{
+    padding: 0.5rem;
+    opacity: 0.8;
+    text-decoration: none;
+    color: white;
 }
