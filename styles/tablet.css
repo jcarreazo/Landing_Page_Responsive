@@ -1,3 +1,7 @@
+:root{
+    --width-fotos:280px;
+    --height-fotos:180px;
+}
 .seccion1-head{
     display: flex; 
     margin: 1.5rem;
@@ -20,7 +24,7 @@
 
 }
 .seccion1-tabla{
-    visibility: hidden;
+    display: none;
 }
 .footer-image{
     background: url(/Images/people2.jpg);
@@ -46,4 +50,96 @@
 
 .header-text{
     margin:1rem 15rem;
+}
+.seccion4-card-planes{
+    overflow-x: unset;
+}
+
+.feature-foto-feature1{
+    background: url(/Images/feature.jpg) no-repeat;
+    background-size: cover;
+    width: var(--width-fotos);
+    height: var(--height-fotos);
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+
+.feature-foto-feature2{
+    background: url(/Images/feature2.jpg) no-repeat;
+    background-size: cover;
+    width: var(--width-fotos);
+    height: var(--height-fotos);
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+
+.feature-foto-feature3{
+    background: url(/Images/feature3.jpg) no-repeat;
+    background-size: cover;
+    width: var(--width-fotos);
+    height: var(--height-fotos);
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+
+.feature-foto-feature4{
+    background: url(/Images/feature4.jpg) no-repeat;
+    background-size: cover;
+    width: var(--width-fotos);
+    height: var(--height-fotos);
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+
+.foto-container{
+    display: flex;
+    margin: 1rem 1rem 6rem 1rem;
+}
+
+.foto-container>div{
+    margin: 0 0.5rem;
+}
+
+@keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    opacity: 1;
+    -webkit-filter: blur(50px);
+            filter: blur(50px);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+    -webkit-filter: blur(0);
+            filter: blur(0);
+  }
+}
+.precio-container{
+    background-color: #e9b226;
+    display: flex;
+    width: 60px;
+    justify-content: center;
+    color:white;
+    padding: 0.3rem;
+}
+
+.descripcion-feature{
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 0 0 0;
+    text-align: left;
+
+}
+.feature-titulo1{
+    font-size: 1.5rem;
+}
+
+.feature-titulo1>span{
+    color: #d6ab3b;
+}
+
+.feature-titulo2{
+    font-size: 0.8rem;
 }
