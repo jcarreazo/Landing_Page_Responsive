@@ -376,7 +376,7 @@ justify-content: stretch;
     color:white;
 }
 footer{
-    padding: 5rem 0 0 0;
+    padding: 3rem 0 0 0;
     background-color: #FAF8F7;
 }
 .seccion4-card1{
@@ -474,4 +474,27 @@ align-content: center;
 
 .menu-tablet{
     display: none;
+}
+
+.bottom-footer{
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #292828;
+}
+.bottom-feature-2>a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.6rem;
+    margin: 0 0.2rem;
+}
+
+.fly-bottom {
+    color: white;
+    font-size: 1.1rem;
+}
+.bottom-year{
+    color: white;
+    font-size: 1rem;
 }
