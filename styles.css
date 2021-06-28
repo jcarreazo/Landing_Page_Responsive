@@ -4,6 +4,12 @@
     font-family: "DM Sans", sans-serif;
 }
 
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important;
+}
+
 .container-logo>span,.main-seccion1-titulo, .header-container>div>span:nth-child(2),.seccion2-titulo,.seccion2-card-titulo,.seccion3-titulo,.seccion4-titulo{
     font-weight: 700;
     font-size: 1.7rem;
