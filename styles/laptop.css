@@ -1,0 +1,70 @@
+.feature-foto-feature4{
+    display: block;
+}
+
+.menu-titles{
+    font-size: 1.3rem;
+}
+
+.container-logo>img {
+    height: 40px
+}
+
+.container-logo>span {
+    opacity: 0.8;
+    font-size: 2rem;
+}
+.header-contenido-texto>span{
+    font-size: 130%;
+}
+.header-main-text{
+    margin: 0.5rem 0 0 0;
+}
+.header-planes-texto{
+    font-size: 1.2rem;
+    padding: 0.1rem 0;
+}
+.header-planes {
+align-items: center;
+border-radius: 30px;
+}
+
+.foto-container{
+    justify-content: center;
+
+}
+
+.foto-container>div{
+    margin: 0 1.2rem;
+}
+
+.footer-image{
+    background-position: 0% 70%;
+    height: 25rem;
+}
+.footer-texto{
+    font-size: 110%;
+}
+
+.texto-contactos{
+    margin:15px 0;
+}
+.footer-enlaces{
+    margin: 10px 0;
+}
+
+.header-container{
+    padding: 0 0 6rem 0;
+}
+
+.seccion3-image{
+    height: 25rem;
+    background-position: 70% 23%;
+
+
+}
+
+.seccion3-titulo{
+    padding: 10rem 0 0 0;
+    font-size: 2rem;
+}

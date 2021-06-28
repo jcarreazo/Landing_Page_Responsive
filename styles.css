@@ -123,6 +123,12 @@
     padding: 0 0 60px 0;
 }
 
+
+.seccion1-head{
+ display: flex;
+ justify-content: center;   
+}
+
 .main-seccion1-price{
 font-weight: 700;
 font-size: 1.6rem;
@@ -245,7 +251,6 @@ margin: 0.4rem 0;
     background-position: 70% 30%;
     
 }
-
 .seccion3-image::before{
     content: "";
     background:goldenrod;
