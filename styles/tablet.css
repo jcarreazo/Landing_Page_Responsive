@@ -117,7 +117,6 @@
 }
 
 .feature-foto-feature1,.feature-foto-feature2,.feature-foto-feature3,.feature-foto-feature4{
-    background-size: cover;
     width: var(--width-fotos);
     height: var(--height-fotos);
     animation-name: scale-in-center;
@@ -130,6 +129,7 @@
 
 .feature-foto-feature1{
     background: url(/Images/feature.jpg) no-repeat;
+    background-size: cover;
 
 }
 
@@ -140,6 +140,7 @@
 
 .feature-foto-feature3{
     background: url(/Images/feature3.jpg) no-repeat;
+    background-size: cover;
 
 }
 
