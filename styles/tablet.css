@@ -215,11 +215,12 @@
     text-decoration: none;
     color: white;
 }
-.menu-tablet-titles{
+.menu-titles-container{
     display: flex;
+    position: static;
 }
 
-.menu-tablet-titles>div{
+.menu-titles-container>div{
     animation-name: slide-in-top;
     animation-delay: 0.1s;
     animation-duration: 1.5s;
@@ -243,4 +244,8 @@ margin: 0 0.5rem;
     animation-name: scale-in-center;
     animation-delay: 0.1s;
     animation-duration: 1s;
+}
+
+.circle-menu{
+    display: none;
 }
