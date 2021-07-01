@@ -14,7 +14,8 @@
     href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,500;1,600&family=Inter:wght@300;500&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap"
     rel="stylesheet" />
   <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script defer src="app.js"></script>
   <title>Landing Page</title>
 </head>
@@ -27,7 +28,7 @@
           <img src="/Images/Logo.svg" alt="logo" srcset="" /><span>fly</span>
         </div>
         <div class="menu-tablet">
-          <div class="menu-tablet-titles">
+          <div class="menu-tablet-titles menu-tablet-titles-desactive">
             <div><a class="menu-titles" href="#">Paquetes</a></div>
             <div><a class="menu-titles" href="#">Planes</a></div>
             <div><a class="menu-titles" href="#">Destinos</a></div>
@@ -35,9 +36,7 @@
           </div>
         </div>
         <div class="menu-bar">
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-            style="fill:white;opacity:0.8">
-            <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z"></path>
+          <box-icon name='menu' color="white" size="30px"></box-icon>
           </svg>
         </div>
       </div>
