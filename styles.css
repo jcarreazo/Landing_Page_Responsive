@@ -604,12 +604,18 @@ footer {
         padding: 0.5rem;
         opacity: 1;
         text-decoration: none;
-        color: transparent;
+        color: gray;
         font-size: 2rem;
     }
 
-    .menu-titles-container>div{
+    .menu-container{
         padding: 0.5rem 0;
+        width: 100%;
+        transition: 0.3s ease-out;
+    }
+    .menu-container:hover{
+        transition: 0.3s ease-in;
+    background-color: rgba(207, 206, 206, 0.568);
     }
 
 
