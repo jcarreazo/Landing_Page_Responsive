@@ -255,6 +255,16 @@
     text-align: left;
 }
 
+.card-header{
+    display: flex;
+    align-items: center;
+    padding: 0 0 0.5rem 0;
+}
+
+.card-header>span{
+    margin: 0 0 0 0.5rem;
+}
+
 .seccion2-card-titulo {
     font-size: 20px;
     margin: 0.4rem 0;

@@ -57,18 +57,13 @@ const navSlide = () => {
 const runEffect = () => {
   nav.toggleClass("menu-tablet-titles-active");
   nav.toggleClass("menu-tablet-titles-desactive");
- 
-  
 }
 const rotateClick=()=>{
   $("#id-menu").css({"transform": "rotate(180deg)","transition":" 0.3s ease-in"})
   setTimeout(() => {
     $("#id-menu").attr("name", "x");
     $("#id-menu").attr("color", "black");
-  }, 200);
- 
-
-  
+  }, 200); 
 }
 const rotateBack=()=>{
   $("#id-menu").css({"transform": "rotate(0deg)","transition":" 0.3s ease-in"})
@@ -76,9 +71,6 @@ const rotateBack=()=>{
   $("#id-menu").attr("name", "menu");
   $("#id-menu").attr("color", "white");
   }, 200);
-
- 
-
 }
 navSlide();
 
