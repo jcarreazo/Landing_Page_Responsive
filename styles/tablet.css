@@ -249,3 +249,6 @@ margin: 0 0.5rem;
 .circle-menu{
     display: none;
 }
+.menu-titles-container{
+   display: flex;
+}
