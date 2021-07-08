@@ -85,7 +85,7 @@
     display: none;
 }
 .footer-image{
-    background: url(/Images/people2.jpg);
+    background: url(Images/people2.jpg);
     background-size: cover;
     height: 20rem;
     visibility: visible;
@@ -125,24 +125,24 @@
 }
 
 .feature-foto-feature1{
-    background: url(/Images/feature.jpg) no-repeat;
+    background: url(Images/feature.jpg) no-repeat;
     background-size: cover;
 
 }
 
 .feature-foto-feature2{
-    background: url(/Images/feature2.jpg) no-repeat;
+    background: url(Images/feature2.jpg) no-repeat;
     background-size: cover;
 }
 
 .feature-foto-feature3{
-    background: url(/Images/feature3.jpg) no-repeat;
+    background: url(Images/feature3.jpg) no-repeat;
     background-size: cover;
 
 }
 
 .feature-foto-feature4{
-    background: url(/Images/feature4.jpg) no-repeat;
+    background: url(Images/feature4.jpg) no-repeat;
     background-size: cover;
 
 }

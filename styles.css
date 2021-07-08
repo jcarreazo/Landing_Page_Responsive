@@ -18,7 +18,7 @@
 
 .header-container {
     background: rgb(2, 0, 36);
-    background: url(/Images/Landscape-4.jpg) no-repeat;
+    background: url(Images/Landscape-4.jpg) no-repeat;
     background-size: cover;
     color: white;
     text-align: center;
@@ -277,7 +277,7 @@
 
 
 .seccion3-image {
-    background: url(/Images/people.jpeg) no-repeat;
+    background: url(Images/people.jpeg) no-repeat;
     background-size: cover;
     height: 23rem;
     position: relative;
