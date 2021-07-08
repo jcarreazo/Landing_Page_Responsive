@@ -85,7 +85,7 @@
     display: none;
 }
 .footer-image{
-    background: url(Images/people2.jpg);
+    background: url("https://images.unsplash.com/photo-1620054710827-e7f141460a7f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2400&q=80");
     background-size: cover;
     height: 20rem;
     visibility: visible;
@@ -125,24 +125,24 @@
 }
 
 .feature-foto-feature1{
-    background: url(Images/feature.jpg) no-repeat;
+    background: url("https://www.viajarlondres.com/img/london-puente-torre.jpg") no-repeat;
     background-size: cover;
 
 }
 
 .feature-foto-feature2{
-    background: url(Images/feature2.jpg) no-repeat;
+    background: url("https://www.trocaderolatour.com/_novaimg/4728854-1445047_0_78_1671_1031_600_370.jpg") no-repeat;
     background-size: cover;
 }
 
 .feature-foto-feature3{
-    background: url(Images/feature3.jpg) no-repeat;
+    background: url("https://www.ceoe.es/sites/ceoe-corporativo/files/styles/image_1200/public/content/image/2018/07/03/1/xmedia-file-3616-panoramica-de-sidney-australia.jpg,qitok=Aw-Te4XV.pagespeed.ic.QTWrmadb_c.webp") no-repeat;
     background-size: cover;
 
 }
 
 .feature-foto-feature4{
-    background: url(Images/feature4.jpg) no-repeat;
+    background: url("https://cdn.nattivus.com/img/actividades/Madrid/32_tour_aranjuez_toledo/tour-aranjuez-y-toledo-A_991x.jpg") no-repeat;
     background-size: cover;
 
 }
@@ -248,4 +248,19 @@ margin: 0 0.5rem;
 }
 .menu-titles-container{
    display: flex;
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .seccion3-image{
+        height: 27rem;
+        background-position: 20% 45%;
+    
+    
+    }
+    .seccion3-titulo{
+        padding: 8rem 0 0 0;
+        font-size: 2.5rem;
+    }
+    
+    
 }
